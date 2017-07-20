@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane id="AnchorPane" prefHeight="248.0" prefWidth="404.0" xmlns="http://javafx.com/javafx/8.0.65" xmlns:fx="http://javafx.com/fxml/1" fx:controller="javafxcalc.FXMLDocumentController">
+   <children>
+      <TextField fx:id="accumlater" alignment="CENTER_RIGHT" layoutX="14.0" layoutY="14.0" prefHeight="26.0" prefWidth="382.0" text="0" />
+      <Button layoutX="14.0" layoutY="56.0" mnemonicParsing="false" onAction="#keyAction" text="7" />
+      <Button layoutX="79.0" layoutY="55.0" mnemonicParsing="false" onAction="#keyAction" text="8" />
+      <Button layoutX="145.0" layoutY="55.0" mnemonicParsing="false" onAction="#keyAction" text="9" />
+      <Button layoutX="14.0" layoutY="146.0" mnemonicParsing="false" onAction="#keyAction" text="1" />
+      <Button layoutX="145.0" layoutY="99.0" mnemonicParsing="false" onAction="#keyAction" text="6" />
+      <Button layoutX="79.0" layoutY="99.0" mnemonicParsing="false" onAction="#keyAction" text="5" />
+      <Button layoutX="14.0" layoutY="100.0" mnemonicParsing="false" onAction="#keyAction" text="4" />
+      <Button layoutX="145.0" layoutY="145.0" mnemonicParsing="false" onAction="#keyAction" text="3" />
+      <Button layoutX="79.0" layoutY="145.0" mnemonicParsing="false" onAction="#keyAction" text="2" />
+      <Button layoutX="14.0" layoutY="197.0" mnemonicParsing="false" onAction="#keyAction" text="0" />
+      <Button layoutX="145.0" layoutY="197.0" mnemonicParsing="false" onAction="#eqAction" text="=" />
+      <Button layoutX="205.0" layoutY="197.0" mnemonicParsing="false" onAction="#addAction" text="+" />
+      <Button layoutX="353.0" layoutY="56.0" mnemonicParsing="false" onAction="#clearAction" text="C" />
+      <Button layoutX="205.0" layoutY="145.0" mnemonicParsing="false" onAction="#subAction" prefHeight="26.0" prefWidth="26.0" text="-" />
+      <Button layoutX="205.0" layoutY="55.0" mnemonicParsing="false" onAction="#devAction" prefHeight="26.0" prefWidth="26.0" text="÷" />
+      <Button layoutX="205.0" layoutY="99.0" mnemonicParsing="false" onAction="#mulAction" prefHeight="26.0" prefWidth="26.0" text="×" />
+      <Button layoutX="79.0" layoutY="197.0" mnemonicParsing="false" onAction="#keyAction" prefHeight="26.0" prefWidth="26.0" text="." />
+      <Button layoutX="353.0" layoutY="100.0" mnemonicParsing="false" onAction="#sqrtAction" text="√" />
+      <Button layoutX="279.0" layoutY="55.0" mnemonicParsing="false" onAction="#logAction" prefHeight="26.0" prefWidth="40.0" text="log" />
+      <Button layoutX="279.0" layoutY="197.0" mnemonicParsing="false" onAction="#tanAction" prefHeight="26.0" prefWidth="40.0" text="tan" />
+      <Button layoutX="279.0" layoutY="146.0" mnemonicParsing="false" onAction="#cosAction" prefHeight="26.0" prefWidth="40.0" text="cos" />
+      <Button layoutX="279.0" layoutY="99.0" mnemonicParsing="false" onAction="#sinAction" prefHeight="26.0" prefWidth="40.0" text="sin" />
+      <Button layoutX="353.0" layoutY="197.0" mnemonicParsing="false" onAction="#eAction" text="e" />
+      <Button layoutX="354.0" layoutY="146.0" mnemonicParsing="false" onAction="#piAction" text="π" />
+   </children>
+</AnchorPane>
